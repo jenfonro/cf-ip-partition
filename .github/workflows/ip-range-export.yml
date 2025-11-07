@@ -1,0 +1,52 @@
+name: Update IP Region Files
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download latest database
+        env:
+          IPINFO_TOKEN: ${{ secrets.IPINFO_TOKEN }}
+          IP_DB_DOWNLOAD_URL: ${{ secrets.IP_DB_DOWNLOAD_URL }}
+        run: bash scripts/download_db.sh ipinfo_lite.mmdb
+
+      - name: Run exporter
+        run: python batch_region_exporter.py --ip-file ip.txt --output-dir output
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output
+          if git diff --cached --quiet; then
+            echo "无更新，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: refresh region outputs"
+
+      - name: Push changes
+        run: git push

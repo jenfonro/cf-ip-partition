@@ -1,0 +1,190 @@
+{
+  "AE": {
+    "ip_count": 1153,
+    "range_count": 91
+  },
+  "AR": {
+    "ip_count": 3479,
+    "range_count": 137
+  },
+  "AT": {
+    "ip_count": 2163,
+    "range_count": 65
+  },
+  "AU": {
+    "ip_count": 4108,
+    "range_count": 348
+  },
+  "BE": {
+    "ip_count": 1309,
+    "range_count": 92
+  },
+  "BR": {
+    "ip_count": 7890,
+    "range_count": 632
+  },
+  "CA": {
+    "ip_count": 4454,
+    "range_count": 395
+  },
+  "CH": {
+    "ip_count": 732,
+    "range_count": 104
+  },
+  "CL": {
+    "ip_count": 2272,
+    "range_count": 115
+  },
+  "CN": {
+    "ip_count": 1064,
+    "range_count": 292
+  },
+  "CO": {
+    "ip_count": 998,
+    "range_count": 159
+  },
+  "DE": {
+    "ip_count": 8071,
+    "range_count": 557
+  },
+  "DK": {
+    "ip_count": 850,
+    "range_count": 49
+  },
+  "EG": {
+    "ip_count": 115,
+    "range_count": 47
+  },
+  "ES": {
+    "ip_count": 3537,
+    "range_count": 214
+  },
+  "FI": {
+    "ip_count": 1148,
+    "range_count": 64
+  },
+  "FR": {
+    "ip_count": 7899,
+    "range_count": 557
+  },
+  "GB": {
+    "ip_count": 7169,
+    "range_count": 846
+  },
+  "GR": {
+    "ip_count": 67,
+    "range_count": 40
+  },
+  "HK": {
+    "ip_count": 3413,
+    "range_count": 166
+  },
+  "ID": {
+    "ip_count": 2501,
+    "range_count": 171
+  },
+  "IE": {
+    "ip_count": 2247,
+    "range_count": 119
+  },
+  "IL": {
+    "ip_count": 1362,
+    "range_count": 60
+  },
+  "IN": {
+    "ip_count": 10057,
+    "range_count": 806
+  },
+  "IT": {
+    "ip_count": 3237,
+    "range_count": 189
+  },
+  "JP": {
+    "ip_count": 5287,
+    "range_count": 624
+  },
+  "KR": {
+    "ip_count": 3370,
+    "range_count": 360
+  },
+  "MO": {
+    "ip_count": 15,
+    "range_count": 7
+  },
+  "MX": {
+    "ip_count": 1183,
+    "range_count": 169
+  },
+  "MY": {
+    "ip_count": 1728,
+    "range_count": 148
+  },
+  "NG": {
+    "ip_count": 429,
+    "range_count": 168
+  },
+  "NO": {
+    "ip_count": 1101,
+    "range_count": 51
+  },
+  "PH": {
+    "ip_count": 1442,
+    "range_count": 88
+  },
+  "PL": {
+    "ip_count": 2743,
+    "range_count": 101
+  },
+  "PT": {
+    "ip_count": 99,
+    "range_count": 67
+  },
+  "RU": {
+    "ip_count": 457,
+    "range_count": 181
+  },
+  "SA": {
+    "ip_count": 2208,
+    "range_count": 88
+  },
+  "SE": {
+    "ip_count": 2732,
+    "range_count": 103
+  },
+  "SG": {
+    "ip_count": 6957,
+    "range_count": 258
+  },
+  "TH": {
+    "ip_count": 379,
+    "range_count": 57
+  },
+  "TR": {
+    "ip_count": 2732,
+    "range_count": 85
+  },
+  "TW": {
+    "ip_count": 1544,
+    "range_count": 133
+  },
+  "UA": {
+    "ip_count": 286,
+    "range_count": 135
+  },
+  "UNKNOWN": {
+    "ip_count": 50794,
+    "range_count": 3177
+  },
+  "US": {
+    "ip_count": 1355573,
+    "range_count": 4139
+  },
+  "VN": {
+    "ip_count": 561,
+    "range_count": 143
+  },
+  "ZA": {
+    "ip_count": 1565,
+    "range_count": 114
+  }
+}
